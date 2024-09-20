@@ -4,7 +4,7 @@ def qsort(a, low, high):
         qsort(a, low, pivot-1)
         qsort(a, pivot+1, high)
 
-
+#Patrition algorithm for the quick sort
 def partition(a, pivot, high):
     i = pivot+1
     j = high
