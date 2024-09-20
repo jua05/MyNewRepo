@@ -14,5 +14,5 @@ while left <= right:
     else:
         right = middle - 1
 
-if left > right:
+if left > right: 
     print('There is not {:3} in this list.\nadd'.format(x))
